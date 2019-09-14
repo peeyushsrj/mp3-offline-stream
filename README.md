@@ -13,15 +13,20 @@ Use case:
 
 ## Use
 
-wherever you music files are ; run `ruby index.rb`
-
-on browser open `localhost:4567` or your `IPADDRESS:4567`
-
-```
-searching a song: localhost:4567/?q=baaton
-```
+1. Clone repo.
+2. Move index.rb and views/ directory to the directory where music files are.
+3. Search a song: `0.0.0.0:4567/?q=writer`
 
 
 ## Roadmap
 
 - To be written ( required things as 0.2)
+
+### Changelog
+
+v: 0.2
+======
+
+- Ruby as an executable (for linux)
+- String match better downcased
+- Priting sample sizes before server starts
