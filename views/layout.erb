@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sinatra app</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="keywords" content="Sinatra" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
+    <link rel="icon" type="image/ico" href="/images/favicon.ico" />
+  </head>
+  <body>
+    <form method="GET" action="/" _lpchecked="1">
+      <input type="text" id="q" placeholder="." name="q">
+      <button type="submit" id="submit">Submit</button>
+    </form>
+    <%= yield %>
+  </body>
+</html>
