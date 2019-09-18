@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Sinatra app</title>
+    <title>mp3Cloud app</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="" />
-    <meta name="keywords" content="Sinatra" />
-    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
-    <link rel="icon" type="image/ico" href="/images/favicon.ico" />
+    <meta name="description" content="mp3Cloud" />
+    <style>
+      body {
+          margin:40px auto;
+          max-width:650px;
+          line-height:1.6;
+          font-size:18px;
+          color:#444;
+          padding:0 10px;
+          font-family: FiraSans Regular;
+          background-color: #EEEEEE;
+      }
+      h1, h2, h3 {
+          line-height: 1.2;
+      }
+      a{
+        text-decoration: none;
+      }
+    </style>
+    <meta name="keywords" content="mp3Cloud" />
   </head>
   <body>
+    <h2>mp3Cloud</h2>
     <form method="GET" action="/" _lpchecked="1">
       <input type="text" id="q" placeholder="." name="q">
-      <button type="submit" id="submit">Submit</button>
+      <button type="submit" id="submit">Search</button>
     </form>
-    <%= yield %>
+        <%= yield %>
   </body>
 </html>

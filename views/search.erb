@@ -1,3 +1,4 @@
+<p><small><%= @message %></small></p>
 <% @songs.each do |song| %>
-  <a href="<%= song[:path] %>"><%= song[:name] %></a><br>
+  <a href="<%= song[:path] %>" ><%= song[:name] %></a><br>
 <% end %>

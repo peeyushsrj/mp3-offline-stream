@@ -37,3 +37,9 @@ v: 0.3
 - changed: port default 4567 => 4444 
 - added: form for input
 - added: mobile zoom supported
+
+v: 0.4
+======
+
+- modified: front-end upgrade
+- added: no results found

@@ -26,6 +26,11 @@ get '/' do
       @songs.push({"name": mp3File ,"path": mp3Path})
     end
   end
+
+  if @songs.length == 0 && inputFile != " "
+    @message = "No music found"
+  end
+
   erb :search
   
 end
